@@ -1,1 +1,3 @@
 # MCINtraining
+
+[workstation](workstation.md)
