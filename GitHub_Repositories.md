@@ -24,7 +24,7 @@ sudo apt-get install git
   1. Paste the text below, substituting in your GitHub email address.
 
      ```sh
-     ssh-keygen -t rsa -b 4096 -C janviercanada@gmail.com ## andy.teng@mcin.ca
+     ssh-keygen -t rsa -b 4096 -C 'email address'
      ```
 
      The entire key generation process looks like this:
@@ -69,14 +69,14 @@ sudo apt-get install git
 
   1. copy SSH link
 
-  ​        go to 'Clone and Download' <git@github.com:andytengca/MCINtraining.git>
+  ​        go to 'Clone and Download' and copy the SSH link
 
   ​
 
-  1. copy it to Ubuntu 
+  2. copy it to Ubuntu 
 
       ```sh
-     git clonegit@github.com:andytengca/MCINtraining.git
+     git clone 'SSH link from GitHub'
       ```
 
   git add .
