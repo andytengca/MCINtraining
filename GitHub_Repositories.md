@@ -14,6 +14,7 @@
 
 ```sh
 sudo apt-get update
+sudo dpkg --configure -a 
 sudo apt-get install git
 ```
 
@@ -76,7 +77,7 @@ sudo apt-get install git
   2. copy it to Ubuntu 
 
       ```sh
-     git clone 'SSH link from GitHub'
+         git clone 'SSH link from GitHub'
       ```
 
   git add .
